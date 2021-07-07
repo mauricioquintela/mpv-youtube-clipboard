@@ -27,7 +27,8 @@ end
 
 
 function set_clipboard(text)
-    mp.commandv("run", "/home/mauricioquintela/.config/mpv/scripts/mpv_get-link/get_link.sh", text);
+	--edit path to your folder
+	mp.commandv("run", "/home/mauricioquintela/.config/mpv/scripts/mpv_get-link/get_link.sh", text);
 end
 
 
