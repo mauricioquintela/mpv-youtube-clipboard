@@ -5,6 +5,8 @@ Configured for kde plasma, but portable to anything (xclip based command comment
 
 By default, the script is bound to "Ctrl + Shift + c".
 
+Based on [mpv-copyTime](https://github.com/Arieleg/mpv-copyTime) and [showfilename](https://github.com/yuukidach/mpv-scripts).
+
 # Installation
 
 ## GNU/Linux
