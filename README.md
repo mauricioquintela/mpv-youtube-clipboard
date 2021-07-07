@@ -15,7 +15,7 @@ By default, the script is bound to "Ctrl + Shift + c".
 
 * Give execute permissions to get_link.sh (chmod +x get_link.sh).
 
-* Update get_link.sh to use your clipboard manager of choice. Default is klipper (KDE Plasma), with xclipt version as a comment.
+* Update get_link.sh to use your clipboard manager of choice. Default is klipper (KDE Plasma), with xclip version as a comment.
 
 
 # Screenshot
