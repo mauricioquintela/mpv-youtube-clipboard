@@ -1,7 +1,7 @@
 # mpv-youtube-clipboard
 Lua script to copy url of currently playing youtube video to the clipboard. Link is displayed as a confirmation. 
 
-Configured for kde plasma, but portable to anything (xclip based command commented out on get_link.sh).
+Default configuration uses xclip. Kde plasma configuration available as a comment in the file.
 
 By default, the script is bound to "Ctrl + Shift + c".
 
