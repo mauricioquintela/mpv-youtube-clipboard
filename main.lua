@@ -21,6 +21,7 @@ function M.show_filename()
 		set_clipboard(formated_filename)
         M.prompt_msg(formated_filename, 2000)
     else
+	set_clipboard(current_filename)
         M.prompt_msg(current_filename, 2000)
 	end
 end
