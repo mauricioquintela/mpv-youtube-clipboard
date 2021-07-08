@@ -22,4 +22,4 @@ Based on [mpv-copyTime](https://github.com/Arieleg/mpv-copyTime) and [showfilena
 
 
 # Screenshot
-![ss1](https://user-images.githubusercontent.com/39190784/124830911-7361ff00-df72-11eb-9ac2-16c17518b821.png)
+![ss1](https://user-images.githubusercontent.com/39190784/124938060-e1a0d300-dfff-11eb-94a3-45b95e9710c5.png)
