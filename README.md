@@ -1,5 +1,6 @@
 # mpv-youtube-clipboard
-Lua script to copy url of currently playing youtube video to the clipboard. Link is displayed as a confirmation. 
+Lua script to copy filename of currently playing video to the clipboard. Filename is displayed as a confirmation. 
+If filename is an youtube link (beginning by "watch?v="), it gets processed into a full youtube url. 
 
 Default configuration uses xclip. Kde plasma configuration available as a comment in the file.
 
@@ -11,13 +12,13 @@ Based on [mpv-copyTime](https://github.com/Arieleg/mpv-copyTime) and [showfilena
 
 ## GNU/Linux
 
-* Clone repository in your scripts folder (usually "~/.config/mpv/scripts/"). 
+* Clone repository in your scripts folder (usually "~/.config/mpv/scripts/").
 
 * Modify main.lua to set the correct path to get_link.sh (has to be absolute path).
 
 * Give execute permissions to get_link.sh (chmod +x get_link.sh).
 
-* Update get_link.sh to use your clipboard manager of choice. Default is klipper (KDE Plasma), with xclip version as a comment.
+* Update get_link.sh to use your clipboard manager of choice. Default is xclip, with klipper (KDE Plasma) version as a comment.
 
 
 # Screenshot

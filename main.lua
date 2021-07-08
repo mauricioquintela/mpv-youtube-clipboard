@@ -15,7 +15,7 @@ end
 
 function M.show_filename()
 	local current_filename = mp.get_property("filename")
-	if string.sub(current_filename,1,5) == "watch" 
+	if string.sub(current_filename,1,8) == "watch?v=" 
 	then 
 		formated_filename = "https://www.youtube.com/" .. current_filename
 		set_clipboard(formated_filename)
