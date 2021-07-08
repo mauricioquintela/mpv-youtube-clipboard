@@ -19,17 +19,17 @@ function M.show_filename()
 	then 
 		formated_filename = "https://www.youtube.com/" .. current_filename
 		set_clipboard(formated_filename)
-        M.prompt_msg(formated_filename, 2000)
-    else
-	set_clipboard(current_filename)
-        M.prompt_msg(current_filename, 2000)
+	        M.prompt_msg(formated_filename, 2000)
+    	else
+		set_clipboard(current_filename)
+        	M.prompt_msg(current_filename, 2000)
 	end
 end
 
 
 function set_clipboard(text)
 	--edit path to your folder
-	mp.commandv("run", "/home/mauricioquintela/.config/mpv/scripts/mpv_get-link/get_link.sh", text);
+	mp.commandv("run", "/home/mauricioquintela/.config/mpv/scripts/mpv-youtube-clipboard/get_link.sh", text);
 end
 
 
