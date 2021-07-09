@@ -12,7 +12,8 @@ function M.prompt_msg(msg, ms)
 	mp.commandv("show-text", msg, ms)
 end
 
-
+-- format filename if it is a youtube link
+-- extra checks can easily be added
 function M.show_filename()
 	local current_filename = mp.get_property("filename")
 	if string.sub(current_filename,1,8) == "watch?v=" 
@@ -33,18 +34,18 @@ function set_clipboard(text)
 end
 
 
-function M.bind_shift_enter()
+function M.bind_shift_c()
 	mp.add_key_binding('CTRL+SHIFT+C', 'check_file_name', M.show_filename)
 end
 
 
-function M.unbind_shift_enter()
+function M.unbind_shift_c()
 	mp.remove_key_binding('CTRL+SHIFT+C')
 end
 
 
 function M.main() 
-	M.bind_shift_enter()
+	M.bind_shift_c()
 end
 
 mp.register_event("file-loaded", M.main)
